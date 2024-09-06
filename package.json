@@ -25,6 +25,7 @@
     "@storybook/nextjs": "^8.2.9",
     "@storybook/react": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@svgr/webpack": "^8.1.0",
     "storybook": "^8.2.9"
   }
 }
