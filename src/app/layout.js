@@ -18,9 +18,7 @@ export const metadata = {
   description: "Premier Digital Product Innovation Company that Specializes in UIUX Research, Design & Software Engineering",
   keywords: "UIUX, Digital Innovation, Product Design, Software Engineering, Research, Web Development, Mobile Apps, Prototyping",
   author: "Excite! Innovation Company",
-  viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
-  themeColor: "#ffffff",  // Brand primary color
   language: "en-US",  // Language for the document
   charSet: "UTF-8",  // Character encoding
 
