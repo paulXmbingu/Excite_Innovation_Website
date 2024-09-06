@@ -1,1 +1,0 @@
-export { BrandLogoHor } from './BrandLogo';
