@@ -1,0 +1,1 @@
+export { BrandLogoHor } from './BrandLogo';
