@@ -4,7 +4,7 @@ import { BrandLogoHor } from "./BrandLogo";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <BrandLogoHor />
+      <BrandLogoHor height="120px" />
     </div>
   );
 }
