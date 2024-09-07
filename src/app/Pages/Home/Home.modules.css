@@ -1,6 +1,6 @@
 .homePageWrap {
     display: flex;
-    width: 1920px;
+    width: 100%;
     max-width: var(--Containers-xxl, 1920px);
     padding: var(--spacing-none, 0px);
     justify-content: center;
