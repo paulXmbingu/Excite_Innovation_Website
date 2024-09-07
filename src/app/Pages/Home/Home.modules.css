@@ -1,0 +1,37 @@
+.homePageWrap {
+    display: flex; /* Ensure the main container uses flex layout */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    padding: 0; /* Remove padding if not needed */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Align items vertically center */
+    background: var(--Colors-Background-bg-primary, #FFF);
+}
+
+.mediaSection {
+    display: flex;
+    flex: 1; /* Allow this section to grow and shrink */
+    padding: var(--spacing-8xl, 80px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: var(--Base-4-Premitives-0, 0px);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 51.56%, #DA154D 100%);
+}
+
+.video {
+    width: 100%; /* Full width of the mediaSection */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: var(--Base-4-Premitives-0, 0px);
+}
+
+.detailsSection {
+    display: flex;
+    flex: 1; /* Allow this section to grow and shrink */
+    height: 100%; /* Full height of the container */
+    min-width: 320px; /* Minimum width */
+    padding: var(--container-padding-mobile, 16px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
