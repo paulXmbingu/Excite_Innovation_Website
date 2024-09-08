@@ -1,0 +1,20 @@
+.socialButtonWrap {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-lg, 12px);
+    border-radius: var(--radius-md, 8px);
+    border: 0px #FFF;
+    background: var(--Colors-Background-bg-primary, #FFF);
+
+    /* Shadows/shadow-xs-skeuomorphic */
+    /* box-shadow: 0px 0px 0px 1px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border, rgba(16, 24, 40, 0.18)) inset, 0px -2px 0px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner, rgba(16, 24, 40, 0.05)) inset, 0px 1px 2px 0px var(--Colors-Effects-Shadows-shadow-xs, rgba(16, 24, 40, 0.05)); */
+    cursor: pointer;
+    transition: all 0.2s ease, transform 0.2s ease;
+}
+
+.socialButtonWrap:hover {
+    background: var(--Colors-Background-bg-secondary_hover, #F2F4F7);
+    scale: 95%;
+}
