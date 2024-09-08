@@ -29,7 +29,9 @@ const HomePage = () => {
                                 UIUX Research, Design & Software Engineering
                             </div>
                         </div>
-                        <div> CTAs </div>
+                        <div>
+                            CTAs
+                        </div>
                     </div>
                     <div className={styles.legalFinePrint}>
                         © 2010 - 2024 Excite! Innovation Company. Other IPs belong to their respective owners.
