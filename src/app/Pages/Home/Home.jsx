@@ -20,7 +20,17 @@ const HomePage = () => {
             <div className={styles.detailsSection}>
                 <div className={styles.pageDetails}>
                     <div> Logos </div>
-                    <div> Text & CTA </div>
+                    <div className={styles.textCTA}>
+                        <div className={styles.subTextHeroText}> 
+                            <div className={styles.subText}>
+                                Premier Digital Product Innovation Company that Specializes in
+                            </div>
+                            <div className={styles.heroText}>
+                                UIUX Research, Design & Software Engineering
+                            </div>
+                        </div>
+                        <div> CTAs </div>
+                    </div>
                     <div className={styles.legalFinePrint}>
                         © 2010 - 2024 Excite! Innovation Company. Other IPs belong to their respective owners.
                     </div>
