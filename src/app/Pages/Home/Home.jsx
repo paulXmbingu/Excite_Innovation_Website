@@ -19,11 +19,10 @@ const HomePage = () => {
             </div>
             <div className={styles.detailsSection}>
                 <div className={styles.pageDetails}>
-                    <div>
+                    <div className={styles.logo}>
                         <img
                             src="/assets/ExciteLogo.svg"
                             alt="Excite! Innovation Company Logo"
-                            className={styles.logo}
                         />
                     </div>
                     <div className={styles.textCTA}>
