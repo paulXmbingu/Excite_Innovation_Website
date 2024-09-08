@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from "./Home.module.css";
+import SocialButton from '@/app/Components/Shared/Buttons/Buttons';
 
 const HomePage = () => {
     return (
@@ -58,7 +59,12 @@ const HomePage = () => {
                         <div className={styles.cTAs}>
                             <div className={styles.socialMediaCTA}> Follow us on our socials </div>
                             <div className={styles.socialMediaIcons}>
-                                Social Media Icons
+                                <SocialButton socialIcon="/icons/LinkedIn.svg" />
+                                <SocialButton socialIcon="/icons/Instagram.svg" />
+                                <SocialButton socialIcon="/icons/Dribbble.svg" />
+                                <SocialButton socialIcon="/icons/GitHub.svg" />
+                                <SocialButton socialIcon="/icons/X.svg" />
+                                <SocialButton socialIcon="/icons/YouTube.svg" />
                             </div>
                         </div>
                     </div>
