@@ -45,8 +45,8 @@ const HomePage = () => {
                                 UIUX Research, Design & Software Engineering
                             </div>
                         </div>
-                        <div>
-                            CTAs
+                        <div className={styles.cTAs}>
+                            <div className={styles.socialMediaCTA}> Follow us on our socials </div>
                         </div>
                     </div>
                     <div className={styles.legalFinePrint}>

@@ -98,6 +98,26 @@
     letter-spacing: -0.96px;
 }
 
+.cTAs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xl, 16px);
+    align-self: stretch;
+}
+
+.socialMediaCTA {
+    color: var(--colors-text-text-tertiary-600, #475467);
+    
+    /* Text sm/Semibold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
 .legalFinePrint {
     align-self: stretch;
     color: var(--colors-text-text-tertiary-600, #475467);
