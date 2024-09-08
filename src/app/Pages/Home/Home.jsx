@@ -47,6 +47,9 @@ const HomePage = () => {
                         </div>
                         <div className={styles.cTAs}>
                             <div className={styles.socialMediaCTA}> Follow us on our socials </div>
+                            <div className={styles.socialMediaIcons}>
+                                Social Media Icons
+                            </div>
                         </div>
                     </div>
                     <div className={styles.legalFinePrint}>
