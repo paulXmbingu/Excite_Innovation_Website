@@ -1,7 +1,7 @@
-import styles from "./Home.module.css"
+import styles from "./Home.module.css";
 
 const HomePage = () => {
-    return(
+    return (
         <div className={styles.homePageWrap}>
             <div className={styles.mediaSection}>
                 <video 
@@ -19,7 +19,13 @@ const HomePage = () => {
             </div>
             <div className={styles.detailsSection}>
                 <div className={styles.pageDetails}>
-                    <div> Logos </div>
+                    <div>
+                        <img
+                            src="/assets/ExciteLogo.svg"
+                            alt="Excite! Innovation Company Logo"
+                            className={styles.logo}
+                        />
+                    </div>
                     <div className={styles.textCTA}>
                         <div className={styles.subTextHeroText}> 
                             <div className={styles.subText}>

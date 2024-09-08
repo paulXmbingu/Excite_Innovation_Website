@@ -47,6 +47,14 @@
     align-self: stretch;
 }
 
+.logo {
+    display: flex;
+    width: var(--Base-4-Premitives-128, 512px);
+    height: var(--Base-4-Premitives-64, 256px);
+    padding: 44px 86.119px 44px 52px;
+    align-items: center;
+}
+
 .textCTA {
     display: flex;
     flex-direction: column;
