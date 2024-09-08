@@ -1,8 +1,19 @@
+import Head from 'next/head';
 import styles from "./Home.module.css";
 
 const HomePage = () => {
     return (
         <div className={styles.homePageWrap}>
+            <Head>
+                <title>Excite! Innovation Company</title>
+                <meta name="description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
+                <meta name="keywords" content="Digital Product Innovation, UIUX Research, Design, Software Engineering" />
+                <meta property="og:title" content="Excite! Innovation Company" />
+                <meta property="og:description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
+                <meta property="og:image" content="/assets/ExciteLogo.svg" />
+                <meta property="og:url" content="https://excite.company/" />
+                <link rel="canonical" href="https://excite.company/" />
+            </Head>
             <div className={styles.mediaSection}>
                 <video 
                     autoPlay 
