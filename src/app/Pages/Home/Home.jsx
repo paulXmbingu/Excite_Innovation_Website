@@ -19,7 +19,7 @@ const HomePage = () => {
             </div>
             <div className={styles.detailsSection}>
                 <div className={styles.pageDetails}>
-                    <div> Logo </div>
+                    <div> Logos </div>
                     <div> Text & CTA </div>
                     <div className={styles.legalFinePrint}>
                         © 2010 - 2024 Excite! Innovation Company. Other IPs belong to their respective owners.
