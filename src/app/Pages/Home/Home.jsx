@@ -18,9 +18,9 @@ const HomePage = () => {
                 <meta name="twitter:title" content="Excite! Innovation Company" />
                 <meta name="twitter:description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
                 <meta name="twitter:image" content="https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg" />
-                <meta name="twitter:site" content="@your_twitter_handle" />
-                <meta name="twitter:creator" content="@your_twitter_handle" />
-                <meta property="fb:app_id" content="your_facebook_app_id" />
+                <meta name="twitter:site" content="@ExciteCompany" />
+                <meta name="twitter:creator" content="@ExciteCompany" />
+                <meta property="fb:app_id" content="Excite.Company" />
                 <link rel="canonical" href="https://excite.company/" />
             </Head>
             <div className={styles.mediaSection}>
