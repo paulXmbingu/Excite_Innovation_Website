@@ -49,7 +49,6 @@ A vibrant, modern design system that empowers developers and designers to create
 - **CSS Modules**: Styling
 - **Storybook.js**: Component Development & Testing
 - **Jest**: For unit testing
-- **npm**: Package management
 
 ## Product Engineering Team
 - Special Contributions: **Marion Ngayi & The Senjes Cuisine Team**
