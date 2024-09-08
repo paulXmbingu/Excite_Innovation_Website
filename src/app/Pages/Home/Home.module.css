@@ -1,23 +1,21 @@
 .homePageWrap {
     display: flex;
-    width: 100%;
-    max-width: var(--Containers-xxl, 1920px);
-    padding: var(--spacing-none, 0px);
+    /* width: 1920px; */
+    /* max-width: var(--Containers-xxl, 1920px); */
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    background: var(--Colors-Background-bg-primary, #FFF);
+    /* height: 100%; */
 }
 
 .mediaSection {
     display: flex;
-    height: var(--Breaking-Points-Desktop-1080px, 1080px);
+    /* height: var(--Breaking-Points-Desktop-1080px, 1080px); */
     min-width: var(--width-xxs, 320px);
-    max-width: var(--width-2xl, 1024px);
-    padding: var(--spacing-8xl, 80px);
     justify-content: center;
     align-items: center;
-    gap: 10px;
     flex: 1 0 0;
     border-radius: var(--Base-4-Premitives-0, 0px);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 51.56%, #DA154D 100%);
@@ -25,7 +23,7 @@
 
 .detailsSection {
     display: flex;
-    height: var(--Breaking-Points-Desktop-1080px, 1080px);
+    /* height: var(--Breaking-Points-Desktop-1080px, 1080px); */
     min-width: var(--width-xxs, 320px);
     padding: var(--container-padding-mobile, 16px);
     flex-direction: column;
