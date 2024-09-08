@@ -1,7 +1,7 @@
 ![Boltshift Marketplace Project Cover](https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg)
 
-# Excite! Innovation Company
-A vibrant, modern design system that empowers developers and designers to create dynamic and intuitive user interfaces for Excite! Innovation Company products. It offers a comprehensive set of components, guidelines, and tools designed for flexibility and consistency across projects.
+# Excite! Innovation Company Portfolio
+Excite! Innovation Company is a premier digital product innovation company specializing in UIUX research, design, and software engineering.
 
 ## Getting Started
 
