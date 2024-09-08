@@ -27,6 +27,7 @@ const HomePage = () => {
                         type="video/mp4"
                     />
                 </video>
+                <div className={styles.mediaSectionScrim}></div>
             </div>
             <div className={styles.detailsSection}>
                 <div className={styles.pageDetails}>
