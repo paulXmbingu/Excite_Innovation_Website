@@ -3,7 +3,7 @@ import HomePage from "./Pages/Home/Home";
 
 export default function NotFound() {
   return (
-    <div className={styles.page}>
+    <div>
       <HomePage />
     </div>
   );
