@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import "./globals.css";
+import HomePage from "./Pages/Home/Home";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -13,6 +13,14 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const bodyStyle = {
+  margin: 0,
+  padding: 0,
+  display: 'flex',
+  minHeight: '100vh',
+  boxSizing: 'border-box',
+};
+
 export const metadata = {
   title: "Excite! Innovation Company",
   description: "Premier Digital Product Innovation Company that Specializes in UIUX Research, Design & Software Engineering",
@@ -23,12 +31,12 @@ export const metadata = {
   charSet: "UTF-8",
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body style={bodyStyle} className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        <HomePage />
       </body>
     </html>
   );
