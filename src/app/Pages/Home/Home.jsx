@@ -45,6 +45,7 @@ const HomePage = () => {
                         <img
                             src="/assets/ExciteLogo.svg"
                             alt="Excite! Innovation Company Logo"
+                            className={styles.logo}
                         />
                     </div>
                     <div className={styles.textCTA}>
