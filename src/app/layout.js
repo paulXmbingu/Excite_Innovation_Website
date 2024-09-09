@@ -33,29 +33,16 @@ export const metadata = {
   robots: "index, follow",
   language: "en-US",
   charSet: "UTF-8",
+  openGraph: {
+    image: "https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg"
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Excite! Innovation Company</title>
-        <meta name="description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
-        <meta name="keywords" content="Digital Product Innovation, UIUX Research, Design, Software Engineering" />
-        <meta property="og:title" content="Excite! Innovation Company" />
-        <meta property="og:description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
-        <meta property="og:image" content="https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg" />
-        <meta property="og:url" content="https://excite.company/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Excite! Innovation Company" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Excite! Innovation Company" />
-        <meta name="twitter:description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg" />
-        <meta name="twitter:site" content="@ExciteCompany" />
-        <meta name="twitter:creator" content="@ExciteCompany" />
-        <meta property="fb:app_id" content="Excite.Company" />
-        <link rel="canonical" href="https://excite.company/" />
+        <meta property="og:image" content={metadata.openGraph.image} />
       </Head>
       <body style={bodyStyle} className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
