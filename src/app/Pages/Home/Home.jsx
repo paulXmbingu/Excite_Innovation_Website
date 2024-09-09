@@ -27,7 +27,7 @@ const HomePage = () => {
             <div className={styles.mediaSection}>
                 <video 
                     autoPlay 
-                    muted
+                    // muted
                     loop
                     height="100%"
                     className={styles.media}
