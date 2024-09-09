@@ -4,7 +4,7 @@ import HomePage from "./Pages/Home/Home";
 export default function NotFound() {
   return (
     <div>
-      <HomePage />
+      {/* <HomePage /> */}
     </div>
   );
 }
