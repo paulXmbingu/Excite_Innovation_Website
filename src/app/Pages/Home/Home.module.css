@@ -67,15 +67,7 @@
     width: 100%;
     max-width: var(--Base-4-Premitives-128, 512px);
     height: auto;
-    padding: 44px 5% 44px 5%;
     align-items: center;
-}
-
-@media (max-width: 768px) {
-    .logo {
-        width: 100%;
-        padding: 20px 5%;
-    }
 }
 
 .textCTA {
