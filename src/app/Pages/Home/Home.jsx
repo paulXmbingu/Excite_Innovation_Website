@@ -1,41 +1,29 @@
+import Head from 'next/head';
 import styles from "./Home.module.css";
 import SocialButton from '@/app/Components/Shared/Buttons/Buttons';
-
-export const metadata = {
-  title: 'Excite! Innovation Company',
-  description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
-  keywords: 'Digital Product Innovation, UIUX Research, Design, Software Engineering',
-  openGraph: {
-    title: 'Excite! Innovation Company',
-    description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
-    images: [
-      {
-        url: 'https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg',
-      },
-    ],
-    url: 'https://excite.company/',
-    siteName: 'Excite! Innovation Company',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Excite! Innovation Company',
-    description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
-    images: ['https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg'],
-    site: '@ExciteCompany',
-    creator: '@ExciteCompany',
-  },
-  alternates: {
-    canonical: 'https://excite.company/',
-  },
-  other: {
-    'fb:app_id': 'Excite.Company',
-  },
-};
 
 const HomePage = () => {
     return (
         <div className={styles.homePageWrap}>
+            <Head>
+                <title>Excite! Innovation Company</title>
+                <meta name="description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
+                <meta name="keywords" content="Digital Product Innovation, UIUX Research, Design, Software Engineering" />
+                <meta property="og:title" content="Excite! Innovation Company" />
+                <meta property="og:description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
+                <meta property="og:image" content="https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg" />
+                <meta property="og:url" content="https://excite.company/" />
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content="Excite! Innovation Company" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Excite! Innovation Company" />
+                <meta name="twitter:description" content="Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering." />
+                <meta name="twitter:image" content="https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg" />
+                <meta name="twitter:site" content="@ExciteCompany" />
+                <meta name="twitter:creator" content="@ExciteCompany" />
+                <meta property="fb:app_id" content="Excite.Company" />
+                <link rel="canonical" href="https://excite.company/" />
+            </Head>
             <div className={styles.mediaSection}>
                 <video 
                     autoPlay 
@@ -70,12 +58,12 @@ const HomePage = () => {
                         <div className={styles.cTAs}>
                             <div className={styles.socialMediaCTA}> Follow us on our socials </div>
                             <div className={styles.socialMediaIcons}>
-                                <SocialButton socialIcon="/icons/LinkedIn.svg" />
-                                <SocialButton socialIcon="/icons/Instagram.svg" />
-                                <SocialButton socialIcon="/icons/Dribbble.svg" />
-                                <SocialButton socialIcon="/icons/GitHub.svg" />
-                                <SocialButton socialIcon="/icons/X.svg" />
-                                <SocialButton socialIcon="/icons/YouTube.svg" />
+                                <SocialButton socialIcon="/icons/LinkedIn.svg" link={`https://www.linkedin.com/company/excitecompany`}/>
+                                <SocialButton socialIcon="/icons/Instagram.svg" link={`https://www.instagram.com/ExciteCompany/`} />
+                                <SocialButton socialIcon="/icons/Dribbble.svg" link={`https://dribbble.com/ExciteCompany`} />
+                                <SocialButton socialIcon="/icons/GitHub.svg" link={`https://github.com/Excite-Innovation-Company`} />
+                                <SocialButton socialIcon="/icons/X.svg" link={`https://twitter.com/ExciteCompany`} />
+                                <SocialButton socialIcon="/icons/YouTube.svg" link={`https://www.youtube.com/@ExciteCompany`} />
                             </div>
                         </div>
                     </div>
