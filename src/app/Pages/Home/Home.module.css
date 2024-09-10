@@ -181,7 +181,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 12px var(--spacing-lg, 12px);
+    /* gap: 12px var(--spacing-lg, 12px); */
     align-self: stretch;
     flex-wrap: wrap;
 }
