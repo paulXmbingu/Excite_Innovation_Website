@@ -12,7 +12,7 @@ const bodyStyle = {
 
 export const metadata = {
   title: "Excite! Innovation Company",
-  description: "Premier Digital Product Innovation Company that Specializes in UIUX Research, Design & Software Engineering",
+  description: "Premier Digital Product Innovation Company Specializing in UIUX Research, Design & Software Engineering",
   keywords: "UIUX, Digital Innovation, Product Design, Software Engineering, Research, Web Development, Mobile Apps, Prototyping",
   author: "Excite! Innovation Company",
   robots: "index, follow",

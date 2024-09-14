@@ -49,7 +49,7 @@ const HomePage = () => {
                     <div className={styles.textCTA}>
                         <div className={styles.subTextHeroText}> 
                             <div className={styles.subText}>
-                                Premier Digital Product Innovation Company that Specializes in
+                                Premier Digital Product Innovation Company Specializing in
                             </div>
                             <div className={styles.heroText}>
                                 UIUX Research, Design & Software Engineering
