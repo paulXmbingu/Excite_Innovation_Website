@@ -1,18 +1,6 @@
-import localFont from "next/font/local";
+import "./globals.css"
 import Head from "next/head";
 import HomePage from "./Pages/Home/Home";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 const bodyStyle = {
   margin: 0,
@@ -39,7 +27,7 @@ export default function RootLayout({ children }) {
       <Head>
         <meta property="og:image" content={metadata.openGraph.image} />
       </Head>
-      <body style={bodyStyle} className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body style={bodyStyle}>
         {children}
         <HomePage />
       </body>
