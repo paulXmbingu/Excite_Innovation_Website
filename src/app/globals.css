@@ -1,3 +1,16 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
 .body {
     margin: 0;
     padding: 0;
