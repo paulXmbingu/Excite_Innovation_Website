@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <Head>
         <meta property="og:image" content={metadata.openGraph.image} />
       </Head>
-      <body style={bodyStyle} className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body style={bodyStyle}>
         {children}
         <HomePage />
       </body>
