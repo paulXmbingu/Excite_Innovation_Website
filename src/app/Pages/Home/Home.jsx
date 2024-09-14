@@ -26,7 +26,9 @@ const HomePage = () => {
             </Head>
             <div className={styles.mediaSection}>
                 <video 
-                    autoPlay 
+                    autoPlay
+                    playsInline
+                    preload='auto'
                     muted
                     loop
                     height="100%"
