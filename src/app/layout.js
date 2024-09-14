@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <link rel="manifest" href="/manifest.json" />
         <meta property="og:image" content={metadata.openGraph.image} />
       </Head>
       <body style={bodyStyle}>
