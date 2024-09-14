@@ -17,6 +17,6 @@
 }
 
 .socialButtonWrap:hover {
-    background: var(--Colors-Background-bg-secondary_hover, #F2F4F7);
+    /* background: var(--Colors-Background-bg-secondary_hover, #F2F4F7); */
     scale: 95%;
 }
