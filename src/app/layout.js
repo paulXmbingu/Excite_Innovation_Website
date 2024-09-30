@@ -12,7 +12,7 @@ const bodyStyle = {
 // Metadata configuration
 export const metadata = {
   title: 'Excite! Innovation Company',
-  description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
+  description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
   keywords: ['Digital Product Innovation', 'UIUX Research', 'Design', 'Software Engineering'],
   openGraph: {
     title: 'Excite! Innovation Company',
@@ -30,7 +30,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Excite! Innovation Company',
-    description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
+    description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
     creator: '@ExciteCompany',
     site: '@ExciteCompany',
     images: ['https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg'],
