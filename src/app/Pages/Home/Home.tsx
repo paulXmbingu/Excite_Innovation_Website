@@ -1,7 +1,7 @@
 import styles from "./Home.module.css";
 import SocialButton from '@/app/Components/Shared/Buttons/Buttons';
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
     <div className={styles.homePageWrap}>
       <div className={styles.mediaSection}>

@@ -1,8 +1,10 @@
 import styles from "./page.module.css";
 
-export default function NotFound() {
+const NotFound = () => {
   return (
     <div>
     </div>
   );
-}
+};
+
+export default NotFound;
