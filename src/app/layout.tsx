@@ -1,7 +1,8 @@
 import "./globals.css";
 import HomePage from "./Pages/Home/Home";
+import { ReactNode } from 'react';
 
-const bodyStyle = {
+const bodyStyle: React.CSSProperties = {
   margin: 0,
   padding: 0,
   display: 'flex',
@@ -47,8 +48,11 @@ export const metadata = {
   },
 };
 
+interface RootLayoutProps {
+  children: ReactNode; // Add the type for children
+}
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body style={bodyStyle}>
