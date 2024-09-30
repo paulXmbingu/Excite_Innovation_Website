@@ -1,6 +1,7 @@
 import "./globals.css";
 import HomePage from "./Pages/Home/Home";
 import { ReactNode } from 'react';
+import Head from 'next/head';
 
 const bodyStyle: React.CSSProperties = {
   margin: 0,
@@ -48,12 +49,26 @@ export const metadata = {
 };
 
 interface RootLayoutProps {
-  children: ReactNode; // Type for children
+  children: ReactNode; // Add the type for children
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
+      <Head>
+        {/* Google Tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6X7E86H9G7"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-6X7E86H9G7');
+            `,
+          }}
+        />
+      </Head>
       <body style={bodyStyle}>
         {children}
         <HomePage />
