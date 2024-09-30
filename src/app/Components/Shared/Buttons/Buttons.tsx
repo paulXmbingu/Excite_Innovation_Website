@@ -1,6 +1,16 @@
 import styles from "./Buttons.module.css";
 
-const SocialButton = ({ socialIcon="/icons/Social icon.svg", handleClick, link }) => {
+interface SocialButtonProps {
+    socialIcon?: string;
+    handleClick?: () => void;
+    link: string;
+}
+
+const SocialButton: React.FC<SocialButtonProps> = ({ 
+    socialIcon = "/icons/Social icon.svg", 
+    handleClick, 
+    link 
+}) => {
     return (
         <a 
             href={link} 
