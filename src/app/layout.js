@@ -1,5 +1,4 @@
-import "./globals.css"
-import Head from "next/head";
+import "./globals.css";
 import HomePage from "./Pages/Home/Home";
 
 const bodyStyle = {
@@ -10,6 +9,7 @@ const bodyStyle = {
   boxSizing: 'border-box',
 };
 
+// Metadata configuration
 export const metadata = {
   title: 'Excite! Innovation Company',
   description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
@@ -43,10 +43,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="manifest" href="/manifest.json" />
-        <meta property="og:image" content={metadata.openGraph.image} />
-      </Head>
       <body style={bodyStyle}>
         {children}
         <HomePage />
