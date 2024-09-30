@@ -39,7 +39,6 @@ export const metadata = {
   alternates: {
     canonical: 'https://excite.company/',
   },
-  // New fields added
   ia: {
     markup_url: 'https://excite.company/markup',
     markup_url_dev: 'https://dev.excite.company/markup',
@@ -49,7 +48,7 @@ export const metadata = {
 };
 
 interface RootLayoutProps {
-  children: ReactNode; // Add the type for children
+  children: ReactNode; // Type for children
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
