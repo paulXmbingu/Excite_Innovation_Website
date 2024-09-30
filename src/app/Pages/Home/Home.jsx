@@ -11,7 +11,7 @@ export const metadata = {
     url: 'https://excite.company/',
     images: [
       {
-        url: 'https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg',
+        url: 'https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg',
         alt: 'Excite! Innovation Company',
       },
     ],
@@ -24,7 +24,7 @@ export const metadata = {
     description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
     creator: '@ExciteCompany',
     site: '@ExciteCompany',
-    images: ['https://res.cloudinary.com/excit3/image/upload/v1725624528/Excite%20Company%20Website/File_Cover_kleht5.jpg'],
+    images: ['https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg'],
   },
   alternates: {
     canonical: 'https://excite.company/',
