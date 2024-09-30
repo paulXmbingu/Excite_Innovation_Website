@@ -9,14 +9,13 @@ const bodyStyle = {
   boxSizing: 'border-box',
 };
 
-// Metadata configuration
 export const metadata = {
   title: 'Excite! Innovation Company',
   description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
   keywords: ['Digital Product Innovation', 'UIUX Research', 'Design', 'Software Engineering'],
   openGraph: {
     title: 'Excite! Innovation Company',
-    description: 'Excite! is a premier digital product innovation company specializing in UIUX research, design, and software engineering.',
+    description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
     url: 'https://excite.company/',
     images: [
       {
