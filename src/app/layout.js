@@ -11,6 +11,7 @@ const bodyStyle = {
 
 export const metadata = {
   title: 'Excite! Innovation Company',
+  author: 'Excite! Innovation Company',
   description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
   keywords: ['Digital Product Innovation', 'UIUX Research', 'Design', 'Software Engineering'],
   openGraph: {
@@ -37,7 +38,15 @@ export const metadata = {
   alternates: {
     canonical: 'https://excite.company/',
   },
+  // New fields added
+  ia: {
+    markup_url: 'https://excite.company/markup',
+    markup_url_dev: 'https://dev.excite.company/markup',
+    rules_url: 'https://excite.company/rules',
+    rules_url_dev: 'https://dev.excite.company/rules',
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
