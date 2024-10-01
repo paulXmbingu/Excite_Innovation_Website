@@ -1,6 +1,5 @@
-// app/layout.tsx
-import './globals.css'; // Import global styles
-import HomePage from './Pages/Home/Home'; // Import HomePage if needed
+import './globals.css';
+import HomePage from './Pages/Home/Home';
 import { ReactNode } from 'react';
 
 const bodyStyle: React.CSSProperties = {
@@ -49,14 +48,13 @@ export const metadata = {
 };
 
 interface RootLayoutProps {
-  children: ReactNode; // Type for children
+  children: ReactNode;
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <head>
-        {/* Google Tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6X7E86H9G7"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -69,7 +67,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
           }}
         />
 
-        {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -83,15 +80,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
         />
       </head>
       <body style={bodyStyle}>
-        {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMK3LLRX"
             height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
         </noscript>
-        {/* End Google Tag Manager (noscript) */}
         
-        {children} {/* Renders the page content */}
-        <HomePage /> {/* Include your HomePage if necessary */}
+        {children}
+        <HomePage />
       </body>
     </html>
   );
