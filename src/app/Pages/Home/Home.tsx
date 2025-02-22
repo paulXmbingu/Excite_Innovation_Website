@@ -50,17 +50,17 @@ const HomePage: React.FC = () => {
                   socialIcon="/icons/Instagram.svg"
                   link={`https://www.instagram.com/ExciteCompany/`}
                 />
-                <SocialButton
+                {/* <SocialButton
                   socialIcon="/icons/Dribbble.svg"
                   link={`https://dribbble.com/ExciteCompany`}
-{/*                 />
-                <SocialButton
+                /> */}
+                {/* <SocialButton
                   socialIcon="/icons/GitHub.svg"
                   link={`https://github.com/Excite-Innovation-Company`}
                 /> */}
                 <SocialButton
                   socialIcon="/icons/X.svg"
-                  link={`https://twitter.com/ExciteCompany`}
+                  link={`https://x.com/ExciteCompany`}
                 />
                 <SocialButton
                   socialIcon="/icons/YouTube.svg"
