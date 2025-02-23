@@ -11,7 +11,7 @@ Excite! Innovation Company is a premier digital product innovation company speci
 
 2. Clone this repository to your local machine using: 
    ```
-   git clone https://github.com/paulXmbingu/Excite_Company_Website
+   git clone https://github.com/paulXmbingu/Excite_Innovation_Website
    ```
    
 3. Install the required dependencies:
