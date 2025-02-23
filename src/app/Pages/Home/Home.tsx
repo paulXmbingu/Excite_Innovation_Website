@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
         <div className={styles.pageDetails}>
           <img
             src="/assets/ExciteLogo.svg"
-            alt="Excite! Innovation Company Logo"
+            alt="Excite! Innovation Logo"
             className={styles.logo}
           />
           <div className={styles.textCTA}>
