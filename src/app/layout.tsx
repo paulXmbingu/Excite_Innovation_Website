@@ -11,26 +11,26 @@ const bodyStyle: React.CSSProperties = {
 };
 
 export const metadata = {
-  title: 'Excite! Innovation Company',
-  author: 'Excite! Innovation Company',
+  title: 'Excite! Innovation',
+  author: 'Excite! Innovation',
   description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
   keywords: ['Digital Product Innovation', 'UIUX Research', 'Design', 'Software Engineering'],
   openGraph: {
-    title: 'Excite! Innovation Company',
+    title: 'Excite! Innovation',
     description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
     url: 'https://excite.company/',
     images: [
       {
         url: 'https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg',
-        alt: 'Excite! Innovation Company',
+        alt: 'Excite! Innovation',
       },
     ],
-    siteName: 'Excite! Innovation Company',
+    siteName: 'Excite! Innovation',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Excite! Innovation Company',
+    title: 'Excite! Innovation',
     description: 'Premier digital product innovation company specializing in UIUX research, design, and software engineering.',
     creator: '@ExciteCompany',
     site: '@ExciteCompany',

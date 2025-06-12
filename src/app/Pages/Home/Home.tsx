@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
         <div className={styles.pageDetails}>
           <img
             src="/assets/ExciteLogo.svg"
-            alt="Excite! Innovation Company Logo"
+            alt="Excite! Innovation Logo"
             className={styles.logo}
           />
           <div className={styles.textCTA}>
@@ -51,16 +51,8 @@ const HomePage: React.FC = () => {
                   link={`https://www.instagram.com/ExciteCompany/`}
                 />
                 <SocialButton
-                  socialIcon="/icons/Dribbble.svg"
-                  link={`https://dribbble.com/ExciteCompany`}
-                />
-                <SocialButton
-                  socialIcon="/icons/GitHub.svg"
-                  link={`https://github.com/Excite-Innovation-Company`}
-                />
-                <SocialButton
                   socialIcon="/icons/X.svg"
-                  link={`https://twitter.com/ExciteCompany`}
+                  link={`https://x.com/ExciteCompany`}
                 />
                 <SocialButton
                   socialIcon="/icons/YouTube.svg"
