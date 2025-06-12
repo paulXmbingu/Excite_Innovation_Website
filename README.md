@@ -3,34 +3,6 @@
 # Excite! Innovation Company Portfolio
 Excite! Innovation Company is a premier digital product innovation company specializing in UIUX research, design, and software engineering.
 
-## Getting Started
-
-### Setup
-
-1. Install and update [Node.js & Node Package Manager](https://nodejs.org/en) [LTS ONLY]
-
-2. Clone this repository to your local machine using: 
-   ```
-   git clone https://github.com/paulXmbingu/Excite-Company-Website.git
-   ```
-   
-3. Install the required dependencies:
-   ```
-   npm i
-   ```
-   
-### Usage
-1. Start the development server:
-   ```
-   npm run dev -- --host
-   ```
-   
-2. Start the Storybook js server:
-   ```
-   npm run storybook
-   ```
-
-3. Ctrl or Cmd click the links on the terminal to view the app or storybook in your browser eg. http://192.168.1.101:5173/ 
 
 ## Features
 - **Comprehensive Component Library**: Pre-built, customizable UI components like buttons, forms, and modals.
